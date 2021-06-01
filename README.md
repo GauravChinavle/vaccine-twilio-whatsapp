@@ -16,8 +16,8 @@ This project provides a Whatsapp notification service for COVID-19 Vaccine Slots
 - [Express](https://expressjs.com/) - _Fast, unopinionated, minimalist web framework for Node.js_
 
 ### Modules used
-- [Twilio](https://www.twilio.com/) -  _messaging service_
-- [Joi](https://www.npmjs.com/package/joi) - _data validator as middleware_
+- [Twilio](https://www.twilio.com/) -  _Messaging service_
+- [Joi](https://www.npmjs.com/package/joi) - _Data validator as middleware_
 
 ### Credentials required
 - Twilio
