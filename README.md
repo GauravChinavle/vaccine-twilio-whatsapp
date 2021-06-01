@@ -4,12 +4,18 @@
 This project provides a Whatsapp notification service for COVID-19 Vaccine Slots availability.
 
 ### How to use ?
-```
+  ```
   git clone https://github.com/GauravChinavle/vaccine-twilio-whatsapp.git
+  ```
+  ```
   cd vaccine-twilio-whatsapp
+  ```
+  ```
   npm install
+  ```
+  ```
   nodemon bin/www
-```
+  ```
 
 ### Technologies used
 - [Nodejs](https://nodejs.org/en/) - _JavaScript runtime built on Chrome's V8 JavaScript engine._
