@@ -1,4 +1,4 @@
-# Covid-19 Vaccine Availability Tracker Whatsapp Notification App
+# Covid-19 Vaccine Availability Tracker App
 
 ### Description
 This project provides a Whatsapp notification service for COVID-19 Vaccine Slots availability.
