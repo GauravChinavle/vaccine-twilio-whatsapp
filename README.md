@@ -17,8 +17,19 @@ This project provides a Whatsapp notification service for COVID-19 Vaccine Slots
 
 ### Modules used
 - [Twilio](https://www.twilio.com/) -  _messaging service_
+- [Joi](https://www.npmjs.com/package/joi) - _data validator as middleware_
 
 ### Pre-requisites
 - Twilio credentials
-    _Above should be saved in .env_
+    -_Above should be saved in .env_
 
+### Flow chart
+```mermaid
+graph LR
+A(User input) --> B((Joi))
+B --> C(Fetches data from api setu)
+C --success--> D(Twilio)
+C --error--> F(No data found)
+D --> E(Whatsapp notification)
+
+```
